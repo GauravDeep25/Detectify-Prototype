@@ -1,0 +1,626 @@
+{
+  "banks": [
+    {
+      "bank": "State Bank of India",
+      "packages": [
+        {
+          "id": "com.sbi.lotusintouch",
+          "cert_sha256": [],
+          "official_apk_sha256": [],
+          "allowed_domains": ["onlinesbi.sbi","sbi.co.in","yono.sbi"]
+        },
+        {
+          "id": "com.sbi.SBIFreedomPlus",
+          "cert_sha256": [],
+          "official_apk_sha256": [],
+          "allowed_domains": ["onlinesbi.sbi","sbi.co.in"]
+        }
+      ]
+    },
+    {
+      "bank": "HDFC Bank",
+      "packages": [
+        {
+          "id": "com.snapwork.hdfc",
+          "cert_sha256": [],
+          "official_apk_sha256": [],
+          "allowed_domains": ["hdfcbank.com","smarthub.hdfcbank.com"]
+        },
+        {
+          "id": "com.hdfcbank.android.now",
+          "cert_sha256": [],
+          "official_apk_sha256": [],
+          "allowed_domains": ["hdfcbank.com"]
+        }
+      ]
+    },
+    {
+      "bank": "ICICI Bank",
+      "packages": [
+        {
+          "id": "com.csam.icici.bank.imobile",
+          "cert_sha256": [],
+          "official_apk_sha256": [],
+          "allowed_domains": ["icicibank.com","imobile.icicibank.com"]
+        }
+      ]
+    },
+    {
+      "bank": "Axis Bank",
+      "packages": [
+        {
+          "id": "com.axis.mobile",
+          "cert_sha256": [],
+          "official_apk_sha256": [],
+          "allowed_domains": ["axisbank.com"]
+        }
+      ]
+    },
+    {
+      "bank": "Kotak Mahindra Bank",
+      "packages": [
+        {
+          "id": "com.kotak.mobile",
+          "cert_sha256": [],
+          "official_apk_sha256": [],
+          "allowed_domains": ["kotak.com"]
+        }
+      ]
+    },
+    {
+      "bank": "Punjab National Bank",
+      "packages": [
+        {
+          "id": "com.pnb.one",
+          "cert_sha256": [],
+          "official_apk_sha256": [],
+          "allowed_domains": ["pnbindia.in","pnbnet.net"]
+        }
+      ]
+    },
+    {
+      "bank": "Bank of Baroda",
+      "packages": [
+        {
+          "id": "com.bankofbaroda.mconnect",
+          "cert_sha256": [],
+          "official_apk_sha256": [],
+          "allowed_domains": ["bankofbaroda.in"]
+        }
+      ]
+    },
+    {
+      "bank": "Canara Bank",
+      "packages": [
+        {
+          "id": "com.canarabank.mobility",
+          "cert_sha256": [],
+          "official_apk_sha256": [],
+          "allowed_domains": ["canarabank.com"]
+        }
+      ]
+    },
+    {
+      "bank": "Union Bank of India",
+      "packages": [
+        {
+          "id": "com.infrasoft.uboi",
+          "cert_sha256": [],
+          "official_apk_sha256": [],
+          "allowed_domains": ["unionbankonline.co.in","unionbankofindia.co.in"]
+        }
+      ]
+    },
+    {
+      "bank": "IndusInd Bank",
+      "packages": [
+        {
+          "id": "com.fss.indus",
+          "cert_sha256": [],
+          "official_apk_sha256": [],
+          "allowed_domains": ["indusind.com"]
+        },
+        {
+          "id": "com.indusind.indie",
+          "cert_sha256": [],
+          "official_apk_sha256": [],
+          "allowed_domains": ["indusind.com"]
+        }
+      ]
+    },
+    {
+      "bank": "Yes Bank",
+      "packages": [
+        {
+          "id": "in.irisbyyes.app",
+          "cert_sha256": [],
+          "official_apk_sha256": [],
+          "allowed_domains": ["yesbank.in"]
+        }
+      ]
+    },
+    {
+      "bank": "RBL Bank",
+      "packages": [
+        {
+          "id": "com.rblbank.mobank",
+          "cert_sha256": [],
+          "official_apk_sha256": [],
+          "allowed_domains": ["rblbank.com"]
+        }
+      ]
+    },
+    {
+      "bank": "IDFC FIRST Bank",
+      "packages": [
+        {
+          "id": "com.idfcfirstbank.optimus",
+          "cert_sha256": [],
+          "official_apk_sha256": [],
+          "allowed_domains": ["idfcfirstbank.com"]
+        }
+      ]
+    },
+    {
+      "bank": "Federal Bank",
+      "packages": [
+        {
+          "id": "com.fedmobile",
+          "cert_sha256": [],
+          "official_apk_sha256": [],
+          "allowed_domains": ["federalbank.co.in"]
+        }
+      ]
+    },
+    {
+      "bank": "Bank of India",
+      "packages": [
+        {
+          "id": "com.boi.ua.android",
+          "cert_sha256": [],
+          "official_apk_sha256": [],
+          "allowed_domains": ["bankofindia.co.in"]
+        }
+      ]
+    },
+    {
+      "bank": "Indian Bank",
+      "packages": [
+        {
+          "id": "com.iexceed.ib.digitalbankingprod",
+          "cert_sha256": [],
+          "official_apk_sha256": [],
+          "allowed_domains": ["indianbank.in"]
+        }
+      ]
+    },
+    {
+      "bank": "IDBI Bank",
+      "packages": [
+        {
+          "id": "com.snapwork.IDBI",
+          "cert_sha256": [],
+          "official_apk_sha256": [],
+          "allowed_domains": ["idbibank.in"]
+        }
+      ]
+    },
+    {
+      "bank": "UCO Bank",
+      "packages": [
+        {
+          "id": "com.lcode.ucomobilebanking",
+          "cert_sha256": [],
+          "official_apk_sha256": [],
+          "allowed_domains": ["ucobank.com"]
+        }
+      ]
+    },
+    {
+      "bank": "Central Bank of India",
+      "packages": [
+        {
+          "id": "com.infrasofttech.CentralBank",
+          "cert_sha256": [],
+          "official_apk_sha256": [],
+          "allowed_domains": ["centralbankofindia.co.in"]
+        }
+      ]
+    },
+    {
+      "bank": "Bank of Maharashtra",
+      "packages": [
+        {
+          "id": "com.kiya.mahaplus",
+          "cert_sha256": [],
+          "official_apk_sha256": [],
+          "allowed_domains": ["bankofmaharashtra.in"]
+        }
+      ]
+    },
+    {
+      "bank": "Punjab & Sind Bank",
+      "packages": [
+        {
+          "id": "PACKAGE_NAME_TO_FILL",
+          "cert_sha256": [],
+          "official_apk_sha256": [],
+          "allowed_domains": ["pnbindia.in"]
+        }
+      ]
+    },
+    {
+      "bank": "Karur Vysya Bank",
+      "packages": [
+        {
+          "id": "PACKAGE_NAME_TO_FILL",
+          "cert_sha256": [],
+          "official_apk_sha256": [],
+          "allowed_domains": ["kvb.co.in"]
+        }
+      ]
+    },
+    {
+      "bank": "Andhra Bank (now part of SBI region)",
+      "packages": [
+        {
+          "id": "PACKAGE_NAME_TO_FILL",
+          "cert_sha256": [],
+          "official_apk_sha256": [],
+          "allowed_domains": ["andhrabank.in"]
+        }
+      ]
+    },
+    {
+      "bank": "South Indian Bank",
+      "packages": [
+        {
+          "id": "com.southindianbank.mobilebanking",
+          "cert_sha256": [],
+          "official_apk_sha256": [],
+          "allowed_domains": ["southindianbank.com"]
+        }
+      ]
+    },
+    {
+      "bank": "Dhanlaxmi Bank",
+      "packages": [
+        {
+          "id": "PACKAGE_NAME_TO_FILL",
+          "cert_sha256": [],
+          "official_apk_sha256": [],
+          "allowed_domains": ["dhanbank.com"]
+        }
+      ]
+    },
+    {
+      "bank": "Karnataka Bank",
+      "packages": [
+        {
+          "id": "PACKAGE_NAME_TO_FILL",
+          "cert_sha256": [],
+          "official_apk_sha256": [],
+          "allowed_domains": ["karnatakabank.com"]
+        }
+      ]
+    },
+    {
+      "bank": "Tamilnad Mercantile Bank",
+      "packages": [
+        {
+          "id": "PACKAGE_NAME_TO_FILL",
+          "cert_sha256": [],
+          "official_apk_sha256": [],
+          "allowed_domains": ["tmbnet.in"]
+        }
+      ]
+    },
+    {
+      "bank": "Bank of Baroda (Alternate)",
+      "packages": [
+        {
+          "id": "com.bankofbaroda.mconnect", 
+          "cert_sha256": [],
+          "official_apk_sha256": [],
+          "allowed_domains": ["bankofbaroda.in"]
+        }
+      ]
+    },
+    {
+      "bank": "Punjab & Sind Bank (alt)",
+      "packages": [
+        {
+          "id": "PACKAGE_NAME_TO_FILL",
+          "cert_sha256": [],
+          "official_apk_sha256": [],
+          "allowed_domains": []
+        }
+      ]
+    },
+    {
+      "bank": "Jammu & Kashmir Bank",
+      "packages": [
+        {
+          "id": "com.jkb.mobilebanking",
+          "cert_sha256": [],
+          "official_apk_sha256": [],
+          "allowed_domains": ["jkbose.in","jkb.co.in"]
+        }
+      ]
+    },
+    {
+      "bank": "Yes Bank (alternate)",
+      "packages": [
+        {
+          "id": "com.yesbank.mobile",
+          "cert_sha256": [],
+          "official_apk_sha256": [],
+          "allowed_domains": ["yesbank.in"]
+        }
+      ]
+    },
+    {
+      "bank": "Bandhan Bank",
+      "packages": [
+        {
+          "id": "com.bandhanbank.mobileapp",
+          "cert_sha256": [],
+          "official_apk_sha256": [],
+          "allowed_domains": ["bandhanbank.com"]
+        }
+      ]
+    },
+    {
+      "bank": "IDFC Bank (alternate)",
+      "packages": [
+        {
+          "id": "com.idfc.mobilebanking",
+          "cert_sha256": [],
+          "official_apk_sha256": [],
+          "allowed_domains": ["idfcfirstbank.com","idfc.in"]
+        }
+      ]
+    },
+    {
+      "bank": "Shivalik Mercantile Co-op Bank",
+      "packages": [
+        {
+          "id": "PACKAGE_NAME_TO_FILL",
+          "cert_sha256": [],
+          "official_apk_sha256": [],
+          "allowed_domains": ["smcbank.co.in"]
+        }
+      ]
+    },
+    {
+      "bank": "Andhra Pradesh Grameena Vikas Bank",
+      "packages": [
+        {
+          "id": "PACKAGE_NAME_TO_FILL",
+          "cert_sha256": [],
+          "official_apk_sha256": [],
+          "allowed_domains": []
+        }
+      ]
+    },
+    {
+      "bank": "Tamilnad Mercantile Bank (alt)",
+      "packages": [
+        {
+          "id": "PACKAGE_NAME_TO_FILL",
+          "cert_sha256": [],
+          "official_apk_sha256": [],
+          "allowed_domains": ["tmbnet.in"]
+        }
+      ]
+    },
+    {
+      "bank": "Yes Bank (older package)",
+      "packages": [
+        {
+          "id": "com.yesbank.iris", 
+          "cert_sha256": [],
+          "official_apk_sha256": [],
+          "allowed_domains": ["yesbank.in"]
+        }
+      ]
+    },
+    {
+      "bank": "Punjab National Bank (alt)",
+      "packages": [
+        {
+          "id": "com.pnb.pnbonline",
+          "cert_sha256": [],
+          "official_apk_sha256": [],
+          "allowed_domains": ["pnbindia.in"]
+        }
+      ]
+    },
+    {
+      "bank": "Syndicate Bank (now part of Canara/SBI merged)",
+      "packages": [
+        {
+          "id": "PACKAGE_NAME_TO_FILL",
+          "cert_sha256": [],
+          "official_apk_sha256": [],
+          "allowed_domains": []
+        }
+      ]
+    },
+    {
+      "bank": "Union Bank (alternate)",
+      "packages": [
+        {
+          "id": "com.unionbank.mobile",
+          "cert_sha256": [],
+          "official_apk_sha256": [],
+          "allowed_domains": ["unionbankofindia.co.in"]
+        }
+      ]
+    },
+    {
+      "bank": "Yes Bank (mobile)",
+      "packages": [
+        {
+          "id": "com.yesbank.mobile",
+          "cert_sha256": [],
+          "official_apk_sha256": [],
+          "allowed_domains": ["yesbank.in"]
+        }
+      ]
+    },
+    {
+      "bank": "Oriental Bank of Commerce (merged)",
+      "packages": [
+        {
+          "id": "PACKAGE_NAME_TO_FILL",
+          "cert_sha256": [],
+          "official_apk_sha256": [],
+          "allowed_domains": []
+        }
+      ]
+    }
+  ],
+  "upi_apps": [
+    {
+      "name": "Google Pay (Tez)",
+      "package": "com.google.android.apps.nbu.paisa.user",
+      "cert_sha256": [],
+      "official_apk_sha256": [],
+      "allowed_domains": ["google.com","pay.google.com"]
+    },
+    {
+      "name": "PhonePe",
+      "package": "com.phonepe.app",
+      "cert_sha256": [],
+      "official_apk_sha256": [],
+      "allowed_domains": ["phonepe.com"]
+    },
+    {
+      "name": "Paytm",
+      "package": "net.one97.paytm",
+      "cert_sha256": [],
+      "official_apk_sha256": [],
+      "allowed_domains": ["paytm.com"]
+    },
+    {
+      "name": "BHIM (NPCI)",
+      "package": "in.org.npci.upiapp",
+      "cert_sha256": [],
+      "official_apk_sha256": [],
+      "allowed_domains": ["bhimupi.org.in","npci.org.in"]
+    },
+    {
+      "name": "Amazon Pay (India)",
+      "package": "in.amazon.mShop.android.shopping",
+      "cert_sha256": [],
+      "official_apk_sha256": [],
+      "allowed_domains": ["amazon.in","pay.amazon.in"]
+    },
+    {
+      "name": "Mobikwik",
+      "package": "com.mobikwik_new",
+      "cert_sha256": [],
+      "official_apk_sha256": [],
+      "allowed_domains": ["mobikwik.com"]
+    },
+    {
+      "name": "Freecharge",
+      "package": "com.freecharge.android",
+      "cert_sha256": [],
+      "official_apk_sha256": [],
+      "allowed_domains": ["freecharge.in"]
+    },
+    {
+      "name": "MobiKwik (alt)",
+      "package": "com.mobikwik",
+      "cert_sha256": [],
+      "official_apk_sha256": [],
+      "allowed_domains": ["mobikwik.com"]
+    },
+    {
+      "name": "Ola Money (Wallet)",
+      "package": "com.olacabs.olamoney",
+      "cert_sha256": [],
+      "official_apk_sha256": [],
+      "allowed_domains": ["olacabs.com"]
+    },
+    {
+      "name": "WhatsApp (Payments)",
+      "package": "com.whatsapp",
+      "cert_sha256": [],
+      "official_apk_sha256": [],
+      "allowed_domains": ["whatsapp.com"]
+    },
+    {
+      "name": "PhonePe Lite (if any)",
+      "package": "PACKAGE_NAME_TO_FILL",
+      "cert_sha256": [],
+      "official_apk_sha256": [],
+      "allowed_domains": ["phonepe.com"]
+    },
+    {
+      "name": "Google Pay (older)",
+      "package": "com.google.android.apps.nbu.paisa.user.old",
+      "cert_sha256": [],
+      "official_apk_sha256": [],
+      "allowed_domains": ["google.com"]
+    },
+    {
+      "name": "Airtel Payments Bank / Airtel Thanks (UPI)",
+      "package": "in.org.npci.upiapp.airtel", 
+      "cert_sha256": [],
+      "official_apk_sha256": [],
+      "allowed_domains": ["airtel.in","airtelpaymentsbank.com"]
+    },
+    {
+      "name": "PayU India (payments SDK / app)",
+      "package": "com.payu.india",
+      "cert_sha256": [],
+      "official_apk_sha256": [],
+      "allowed_domains": ["payu.in"]
+    },
+    {
+      "name": "Zeta (wallet/payments)",
+      "package": "com.zeta.android",
+      "cert_sha256": [],
+      "official_apk_sha256": [],
+      "allowed_domains": ["zeta.co"]
+    },
+    {
+      "name": "Google Play Services (payments component)",
+      "package": "com.google.android.gms",
+      "cert_sha256": [],
+      "official_apk_sha256": [],
+      "allowed_domains": ["google.com"]
+    },
+    {
+      "name": "UPI Service Provider (misc)",
+      "package": "PACKAGE_NAME_TO_FILL",
+      "cert_sha256": [],
+      "official_apk_sha256": [],
+      "allowed_domains": []
+    },
+    {
+      "name": "Simpl (BNPL / wallet)",
+      "package": "io.getsimpl",
+      "cert_sha256": [],
+      "official_apk_sha256": [],
+      "allowed_domains": ["getsimpl.com"]
+    },
+    {
+      "name": "PhonePe (alternate)",
+      "package": "com.phonepe.app.alt",
+      "cert_sha256": [],
+      "official_apk_sha256": [],
+      "allowed_domains": ["phonepe.com"]
+    },
+    {
+      "name": "Paytm Bank (wallet bank component)",
+      "package": "net.one97.paytmbank",
+      "cert_sha256": [],
+      "official_apk_sha256": [],
+      "allowed_domains": ["paytm.com"]
+    }
+  ]
+}
