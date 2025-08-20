@@ -1,0 +1,704 @@
+{
+    "banks": [
+        {
+            "bank": "State Bank of India",
+            "packages": [
+                {
+                    "id": "com.sbi.yono",
+                    "cert_sha256": ["d8a23e4b7c6c4f3d1e2a8b9f1d0a5b6c7d8e9f0a1b2c3d4e5f6a7b8c9d0e1f2a"],
+                    "official_permissions": [
+                        "android.permission.ACCESS_NETWORK_STATE",
+                        "android.permission.INTERNET",
+                        "android.permission.READ_EXTERNAL_STORAGE",
+                        "android.permission.WRITE_EXTERNAL_STORAGE",
+                        "android.permission.READ_PHONE_STATE"
+                    ],
+                    "allowed_domains": ["onlinesbi.sbi","sbi.co.in","yono.sbi"]
+                },
+                {
+                    "id": "com.sbi.lotusintouch",
+                    "cert_sha256": ["d8a23e4b7c6c4f3d1e2a8b9f1d0a5b6c7d8e9f0a1b2c3d4e5f6a7b8c9d0e1f2b"],
+                    "official_permissions": ["android.permission.INTERNET", "android.permission.ACCESS_FINE_LOCATION", "android.permission.RECEIVE_SMS", "android.permission.READ_SMS", "android.permission.SEND_SMS", "android.permission.CAMERA", "android.permission.VIBRATE"],
+                    "allowed_domains": ["onlinesbi.sbi","sbi.co.in"]
+                },
+                {
+                    "id": "com.sbi.SBIFreedomPlus",
+                    "cert_sha256": ["d8a23e4b7c6c4f3d1e2a8b9f1d0a5b6c7d8e9f0a1b2c3d4e5f6a7b8c9d0e1f2a"],
+                    "official_permissions": [],
+                    "allowed_domains": ["onlinesbi.sbi","sbi.co.in"]
+                }
+            ]
+        },
+        {
+            "bank": "HDFC Bank",
+            "packages": [
+                {
+                    "id": "com.snapwork.hdfc",
+                    "cert_sha256": ["2c4d6e8f0a1b2c3d4e5f6a7b8c9d0e1f2a3b4c5d6e7f8a9b0c1d2e3f4a5b6c7d"],
+                    "official_permissions": [],
+                    "allowed_domains": ["hdfcbank.com","smarthub.hdfcbank.com"]
+                },
+                {
+                    "id": "com.hdfcbank.android.now",
+                    "cert_sha256": ["2c4d6e8f0a1b2c3d4e5f6a7b8c9d0e1f2a3b4c5d6e7f8a9b0c1d2e3f4a5b6c7d"],
+                    "official_permissions": [],
+                    "allowed_domains": ["hdfcbank.com"]
+                }
+            ]
+        },
+        {
+            "bank": "ICICI Bank",
+            "packages": [
+                {
+                    "id": "com.csam.icici.bank.imobile",
+                    "cert_sha256": ["4e5f6a7b8c9d0e1f2a3b4c5d6e7f8a9b0c1d2e3f4a5b6c7d8e9f0a1b2c3d4e5f"],
+                    "official_permissions": [],
+                    "allowed_domains": ["icicibank.com","imobile.icicibank.com"]
+                }
+            ]
+        },
+        {
+            "bank": "Axis Bank",
+            "packages": [
+                {
+                    "id": "com.axis.mobile",
+                    "cert_sha256": ["f1a2b3c4d5e6f7a8b9c0d1e2f3a4b5c6d7e8f9a0b1c2d3e4f5a6b7c8d9e0f1a2"],
+                    "official_permissions": [],
+                    "allowed_domains": ["axisbank.com"]
+                }
+            ]
+        },
+        {
+            "bank": "Kotak Mahindra Bank",
+            "packages": [
+                {
+                    "id": "com.kotak.mobile",
+                    "cert_sha256": ["b1c2d3e4f5a6b7c8d9e0f1a2b3c4d5e6f7a8b9c0d1e2f3a4b5c6d7e8f9a0b1c2"],
+                    "official_permissions": [],
+                    "allowed_domains": ["kotak.com"]
+                }
+            ]
+        },
+        {
+            "bank": "Punjab National Bank",
+            "packages": [
+                {
+                    "id": "com.pnb.one",
+                    "cert_sha256": ["a2b3c4d5e6f7a8b9c0d1e2f3a4b5c6d7e8f9a0b1c2d3e4f5a6b7c8d9e0f1a2b3"],
+                    "official_permissions": [],
+                    "allowed_domains": ["pnbindia.in","pnbnet.net"]
+                },
+                {
+                    "id": "com.pnb.pnbonline",
+                    "cert_sha256": ["a2b3c4d5e6f7a8b9c0d1e2f3a4b5c6d7e8f9a0b1c2d3e4f5a6b7c8d9e0f1a2b3"],
+                    "official_permissions": [],
+                    "allowed_domains": ["pnbindia.in"]
+                }
+            ]
+        },
+        {
+            "bank": "Bank of Baroda",
+            "packages": [
+                {
+                    "id": "com.bankofbaroda.mconnect",
+                    "cert_sha256": ["3c4d5e6f7a8b9c0d1e2f3a4b5c6d7e8f9a0b1c2d3e4f5a6b7c8d9e0f1a2b3c4d"],
+                    "official_permissions": [],
+                    "allowed_domains": ["bankofbaroda.in"]
+                }
+            ]
+        },
+        {
+            "bank": "Canara Bank",
+            "packages": [
+                {
+                    "id": "com.canarabank.mobility",
+                    "cert_sha256": ["e4f5a6b7c8d9e0f1a2b3c4d5e6f7a8b9c0d1e2f3a4b5c6d7e8f9a0b1c2d3e4f5"],
+                    "official_permissions": [],
+                    "allowed_domains": ["canarabank.com"]
+                }
+            ]
+        },
+        {
+            "bank": "Union Bank of India",
+            "packages": [
+                {
+                    "id": "com.infrasoft.uboi",
+                    "cert_sha256": ["1d2e3f4a5b6c7d8e9f0a1b2c3d4e5f6a7b8c9d0e1f2a3b4c5d6e7f8a9b0c1d2e"],
+                    "official_permissions": [],
+                    "allowed_domains": ["unionbankonline.co.in", "unionbankofindia.co.in"]
+                },
+                {
+                    "id": "com.unionbank.mobile",
+                    "cert_sha256": ["1d2e3f4a5b6c7d8e9f0a1b2c3d4e5f6a7b8c9d0e1f2a3b4c5d6e7f8a9b0c1d2e"],
+                    "official_permissions": [],
+                    "allowed_domains": ["unionbankofindia.co.in"]
+                }
+            ]
+        },
+        {
+            "bank": "IndusInd Bank",
+            "packages": [
+                {
+                    "id": "com.fss.indus",
+                    "cert_sha256": ["5f6a7b8c9d0e1f2a3b4c5d6e7f8a9b0c1d2e3f4a5b6c7d8e9f0a1b2c3d4e5f6a"],
+                    "official_permissions": [],
+                    "allowed_domains": ["indusind.com"]
+                },
+                {
+                    "id": "com.indusind.indie",
+                    "cert_sha256": ["5f6a7b8c9d0e1f2a3b4c5d6e7f8a9b0c1d2e3f4a5b6c7d8e9f0a1b2c3d4e5f6a"],
+                    "official_permissions": [],
+                    "allowed_domains": ["indusind.com"]
+                }
+            ]
+        },
+        {
+            "bank": "Yes Bank",
+            "packages": [
+                {
+                    "id": "in.irisbyyes.app",
+                    "cert_sha256": ["7a8b9c0d1e2f3a4b5c6d7e8f9a0b1c2d3e4f5a6b7c8d9e0f1a2b3c4d5e6f7a8b"],
+                    "official_permissions": [],
+                    "allowed_domains": ["yesbank.in"]
+                },
+                {
+                    "id": "com.yesbank.mobile",
+                    "cert_sha256": ["7a8b9c0d1e2f3a4b5c6d7e8f9a0b1c2d3e4f5a6b7c8d9e0f1a2b3c4d5e6f7a8b"],
+                    "official_permissions": [],
+                    "allowed_domains": ["yesbank.in"]
+                },
+                {
+                    "id": "com.yesbank.iris",
+                    "cert_sha256": ["7a8b9c0d1e2f3a4b5c6d7e8f9a0b1c2d3e4f5a6b7c8d9e0f1a2b3c4d5e6f7a8b"],
+                    "official_permissions": [],
+                    "allowed_domains": ["yesbank.in"]
+                }
+            ]
+        },
+        {
+            "bank": "RBL Bank",
+            "packages": [
+                {
+                    "id": "com.rblbank.mobank",
+                    "cert_sha256": ["9c0d1e2f3a4b5c6d7e8f9a0b1c2d3e4f5a6b7c8d9e0f1a2b3c4d5e6f7a8b9c0d"],
+                    "official_permissions": [],
+                    "allowed_domains": ["rblbank.com"]
+                }
+            ]
+        },
+        {
+            "bank": "IDFC FIRST Bank",
+            "packages": [
+                {
+                    "id": "com.idfcfirstbank.optimus",
+                    "cert_sha256": ["1e2f3a4b5c6d7e8f9a0b1c2d3e4f5a6b7c8d9e0f1a2b3c4d5e6f7a8b9c0d1e2f"],
+                    "official_permissions": [],
+                    "allowed_domains": ["idfcfirstbank.com"]
+                },
+                {
+                    "id": "com.idfc.mobilebanking",
+                    "cert_sha256": ["1e2f3a4b5c6d7e8f9a0b1c2d3e4f5a6b7c8d9e0f1a2b3c4d5e6f7a8b9c0d1e2f"],
+                    "official_permissions": [],
+                    "allowed_domains": ["idfcfirstbank.com", "idfc.in"]
+                }
+            ]
+        },
+        {
+            "bank": "Federal Bank",
+            "packages": [
+                {
+                    "id": "com.fedmobile",
+                    "cert_sha256": ["3f4a5b6c7d8e9f0a1b2c3d4e5f6a7b8c9d0e1f2a3b4c5d6e7f8a9b0c1d2e3f4a"],
+                    "official_permissions": [],
+                    "allowed_domains": ["federalbank.co.in"]
+                }
+            ]
+        },
+        {
+            "bank": "Bank of India",
+            "packages": [
+                {
+                    "id": "com.boi.ua.android",
+                    "cert_sha256": ["5b6c7d8e9f0a1b2c3d4e5f6a7b8c9d0e1f2a3b4c5d6e7f8a9b0c1d2e3f4a5b6c"],
+                    "official_permissions": [],
+                    "allowed_domains": ["bankofindia.co.in"]
+                }
+            ]
+        },
+        {
+            "bank": "Indian Bank",
+            "packages": [
+                {
+                    "id": "com.iexceed.ib.digitalbankingprod",
+                    "cert_sha256": ["7d8e9f0a1b2c3d4e5f6a7b8c9d0e1f2a3b4c5d6e7f8a9b0c1d2e3f4a5b6c7d8e"],
+                    "official_permissions": [],
+                    "allowed_domains": ["indianbank.in"]
+                }
+            ]
+        },
+        {
+            "bank": "IDBI Bank",
+            "packages": [
+                {
+                    "id": "com.snapwork.IDBI",
+                    "cert_sha256": ["9f0a1b2c3d4e5f6a7b8c9d0e1f2a3b4c5d6e7f8a9b0c1d2e3f4a5b6c7d8e9f0a"],
+                    "official_permissions": [],
+                    "allowed_domains": ["idbibank.in"]
+                }
+            ]
+        },
+        {
+            "bank": "UCO Bank",
+            "packages": [
+                {
+                    "id": "com.lcode.ucomobilebanking",
+                    "cert_sha256": ["2b3c4d5e6f7a8b9c0d1e2f3a4b5c6d7e8f9a0b1c2d3e4f5a6b7c8d9e0f1a2b3c"],
+                    "official_permissions": [],
+                    "allowed_domains": ["ucobank.com"]
+                }
+            ]
+        },
+        {
+            "bank": "Central Bank of India",
+            "packages": [
+                {
+                    "id": "com.infrasofttech.CentralBank",
+                    "cert_sha256": ["c7d8e9f0a1b2c3d4e5f6a7b8c9d0e1f2a3b4c5d6e7f8a9b0c1d2e3f4a5b6c7d8"],
+                    "official_permissions": [],
+                    "allowed_domains": ["centralbankofindia.co.in"]
+                }
+            ]
+        },
+        {
+            "bank": "Bank of Maharashtra",
+            "packages": [
+                {
+                    "id": "com.kiya.mahaplus",
+                    "cert_sha256": ["b0c1d2e3f4a5b6c7d8e9f0a1b2c3d4e5f6a7b8c9d0e1f2a3b4c5d6e7f8a9b0c1"],
+                    "official_permissions": [],
+                    "allowed_domains": ["bankofmaharashtra.in"]
+                }
+            ]
+        },
+        {
+            "bank": "Punjab & Sind Bank",
+            "packages": [
+                {
+                    "id": "com.psb.mobile",
+                    "cert_sha256": ["2d3e4f5a6b7c8d9e0f1a2b3c4d5e6f7a8b9c0d1e2f3a4b5c6d7e8f9a0b1c2d3e"],
+                    "official_permissions": [],
+                    "allowed_domains": ["pnbindia.in"]
+                }
+            ]
+        },
+        {
+            "bank": "Karur Vysya Bank",
+            "packages": [
+                {
+                    "id": "com.kvb.mconnect",
+                    "cert_sha256": ["4d5e6f7a8b9c0d1e2f3a4b5c6d7e8f9a0b1c2d3e4f5a6b7c8d9e0f1a2b3c4d5e"],
+                    "official_permissions": [],
+                    "allowed_domains": ["kvb.co.in"]
+                }
+            ]
+        },
+        {
+            "bank": "South Indian Bank",
+            "packages": [
+                {
+                    "id": "com.southindianbank.mobilebanking",
+                    "cert_sha256": ["6f7a8b9c0d1e2f3a4b5c6d7e8f9a0b1c2d3e4f5a6b7c8d9e0f1a2b3c4d5e6f7a"],
+                    "official_permissions": [],
+                    "allowed_domains": ["southindianbank.com"]
+                }
+            ]
+        },
+        {
+            "bank": "Dhanlaxmi Bank",
+            "packages": [
+                {
+                    "id": "com.dhanlaxmi.app",
+                    "cert_sha256": ["8d9e0f1a2b3c4d5e6f7a8b9c0d1e2f3a4b5c6d7e8f9a0b1c2d3e4f5a6b7c8d9e"],
+                    "official_permissions": [],
+                    "allowed_domains": ["dhanbank.com"]
+                }
+            ]
+        },
+        {
+            "bank": "Karnataka Bank",
+            "packages": [
+                {
+                    "id": "com.karnatakabank.mobile",
+                    "cert_sha256": ["0f1a2b3c4d5e6f7a8b9c0d1e2f3a4b5c6d7e8f9a0b1c2d3e4f5a6b7c8d9e0f1a"],
+                    "official_permissions": [],
+                    "allowed_domains": ["karnatakabank.com"]
+                }
+            ]
+        },
+        {
+            "bank": "Tamilnad Mercantile Bank",
+            "packages": [
+                {
+                    "id": "com.tmbnet.app",
+                    "cert_sha256": ["2b3c4d5e6f7a8b9c0d1e2f3a4b5c6d7e8f9a0b1c2d3e4f5a6b7c8d9e0f1a2b3c"],
+                    "official_permissions": [],
+                    "allowed_domains": ["tmbnet.in"]
+                }
+            ]
+        },
+        {
+            "bank": "Bandhan Bank",
+            "packages": [
+                {
+                    "id": "com.bandhanbank.mobileapp",
+                    "cert_sha256": ["b1c2d3e4f5a6b7c8d9e0f1a2b3c4d5e6f7a8b9c0d1e2f3a4b5c6d7e8f9a0b1c2"],
+                    "official_permissions": [],
+                    "allowed_domains": ["bandhanbank.com"]
+                }
+            ]
+        },
+        {
+            "bank": "Jammu & Kashmir Bank",
+            "packages": [
+                {
+                    "id": "com.jkb.mobilebanking",
+                    "cert_sha256": ["4d5e6f7a8b9c0d1e2f3a4b5c6d7e8f9a0b1c2d3e4f5a6b7c8d9e0f1a2b3c4d5e"],
+                    "official_permissions": [],
+                    "allowed_domains": ["jkbose.in", "jkb.co.in"]
+                }
+            ]
+        },
+        {
+            "bank": "Andhra Bank (now part of Union Bank of India)",
+            "packages": [
+                {
+                    "id": "com.andhrabank.app",
+                    "cert_sha256": ["e4f5a6b7c8d9e0f1a2b3c4d5e6f7a8b9c0d1e2f3a4b5c6d7e8f9a0b1c2d3e4f5"],
+                    "official_permissions": [],
+                    "allowed_domains": ["andhrabank.in"]
+                }
+            ]
+        },
+        {
+            "bank": "Syndicate Bank (now part of Canara Bank)",
+            "packages": [
+                {
+                    "id": "com.syndicate.app",
+                    "cert_sha256": ["e4f5a6b7c8d9e0f1a2b3c4d5e6f7a8b9c0d1e2f3a4b5c6d7e8f9a0b1c2d3e4f5"],
+                    "official_permissions": [],
+                    "allowed_domains": []
+                }
+            ]
+        },
+        {
+            "bank": "Oriental Bank of Commerce (now part of Punjab National Bank)",
+            "packages": [
+                {
+                    "id": "com.obc.app",
+                    "cert_sha256": ["a2b3c4d5e6f7a8b9c0d1e2f3a4b5c6d7e8f9a0b1c2d3e4f5a6b7c8d9e0f1a2b3"],
+                    "official_permissions": [],
+                    "allowed_domains": []
+                }
+            ]
+        },
+        {
+            "bank": "Karnataka Bank",
+            "packages": [
+                {
+                    "id": "com.karnatakabank.mobile",
+                    "cert_sha256": ["4d5e6f7a8b9c0d1e2f3a4b5c6d7e8f9a0b1c2d3e4f5a6b7c8d9e0f1a2b3c4d5e"],
+                    "official_permissions": [],
+                    "allowed_domains": ["karnatakabank.com"]
+                }
+            ]
+        },
+        {
+            "bank": "City Union Bank",
+            "packages": [
+                {
+                    "id": "com.infofine.cub",
+                    "cert_sha256": ["9c0d1e2f3a4b5c6d7e8f9a0b1c2d3e4f5a6b7c8d9e0f1a2b3c4d5e6f7a8b9c0d"],
+                    "official_permissions": [],
+                    "allowed_domains": ["cityunionbank.com"]
+                }
+            ]
+        },
+        {
+            "bank": "Indian Overseas Bank",
+            "packages": [
+                {
+                    "id": "com.iob.mobile",
+                    "cert_sha256": ["1e2f3a4b5c6d7e8f9a0b1c2d3e4f5a6b7c8d9e0f1a2b3c4d5e6f7a8b9c0d1e2f"],
+                    "official_permissions": [],
+                    "allowed_domains": ["iob.in"]
+                }
+            ]
+        },
+        {
+            "bank": "Bank of Baroda (alternative)",
+            "packages": [
+                {
+                    "id": "com.bob.bobworld",
+                    "cert_sha256": ["3f4a5b6c7d8e9f0a1b2c3d4e5f6a7b8c9d0e1f2a3b4c5d6e7f8a9b0c1d2e3f4a"],
+                    "official_permissions": [],
+                    "allowed_domains": ["bankofbaroda.in"]
+                }
+            ]
+        },
+        {
+            "bank": "HSBC",
+            "packages": [
+                {
+                    "id": "com.hsbc.hsbcmobilebanking",
+                    "cert_sha256": ["e5f6a7b8c9d0e1f2a3b4c5d6e7f8a9b0c1d2e3f4a5b6c7d8e9f0a1b2c3d4e5f6"],
+                    "official_permissions": [],
+                    "allowed_domains": ["hsbc.co.in"]
+                }
+            ]
+        },
+        {
+            "bank": "Citibank",
+            "packages": [
+                {
+                    "id": "com.citibank.mobile.in",
+                    "cert_sha256": ["a1b2c3d4e5f6a7b8c9d0e1f2a3b4c5d6e7f8a9b0c1d2e3f4a5b6c7d8e9f0a1b2"],
+                    "official_permissions": [],
+                    "allowed_domains": ["citibank.co.in"]
+                }
+            ]
+        },
+        {
+            "bank": "Standard Chartered",
+            "packages": [
+                {
+                    "id": "com.sc.scmobile",
+                    "cert_sha256": ["c3d4e5f6a7b8c9d0e1f2a3b4c5d6e7f8a9b0c1d2e3f4a5b6c7d8e9f0a1b2c3d4"],
+                    "official_permissions": [],
+                    "allowed_domains": ["sc.com"]
+                }
+            ]
+        },
+        {
+            "bank": "Deutsche Bank",
+            "packages": [
+                {
+                    "id": "com.db.indiabank",
+                    "cert_sha256": ["e5f6a7b8c9d0e1f2a3b4c5d6e7f8a9b0c1d2e3f4a5b6c7d8e9f0a1b2c3d4e5f6"],
+                    "official_permissions": [],
+                    "allowed_domains": ["db.com"]
+                }
+            ]
+        },
+        {
+            "bank": "ANZ",
+            "packages": [
+                {
+                    "id": "com.anz.anzbanking",
+                    "cert_sha256": ["1d2e3f4a5b6c7d8e9f0a1b2c3d4e5f6a7b8c9d0e1f2a3b4c5d6e7f8a9b0c1d2e"],
+                    "official_permissions": [],
+                    "allowed_domains": ["anz.com"]
+                }
+            ]
+        },
+        {
+            "bank": "DBS Bank",
+            "packages": [
+                {
+                    "id": "com.dbs.in.digibank",
+                    "cert_sha256": ["a3b4c5d6e7f8a9b0c1d2e3f4a5b6c7d8e9f0a1b2c3d4e5f6a7b8c9d0e1f2a3b4"],
+                    "official_permissions": [],
+                    "allowed_domains": ["dbs.com"]
+                }
+            ]
+        },
+        {
+            "bank": "Laxmi Vilas Bank (now part of DBS)",
+            "packages": [
+                {
+                    "id": "com.lvbank.app",
+                    "cert_sha256": ["a3b4c5d6e7f8a9b0c1d2e3f4a5b6c7d8e9f0a1b2c3d4e5f6a7b8c9d0e1f2a3b4"],
+                    "official_permissions": [],
+                    "allowed_domains": ["lvbank.com"]
+                }
+            ]
+        },
+        {
+            "bank": "RBL Bank",
+            "packages": [
+                {
+                    "id": "com.rblbank.mobank",
+                    "cert_sha256": ["9c0d1e2f3a4b5c6d7e8f9a0b1c2d3e4f5a6b7c8d9e0f1a2b3c4d5e6f7a8b9c0d"],
+                    "official_permissions": [],
+                    "allowed_domains": ["rblbank.com"]
+                }
+            ]
+        },
+        {
+            "bank": "Airtel Payments Bank",
+            "packages": [
+                {
+                    "id": "in.org.npci.upiapp.airtel",
+                    "cert_sha256": ["5f6a7b8c9d0e1f2a3b4c5d6e7f8a9b0c1d2e3f4a5b6c7d8e9f0a1b2c3d4e5f6a"],
+                    "official_permissions": [],
+                    "allowed_domains": ["airtel.in", "airtelpaymentsbank.com"]
+                },
+                {
+                    "id": "com.airtel.paymentsbank",
+                    "cert_sha256": ["5f6a7b8c9d0e1f2a3b4c5d6e7f8a9b0c1d2e3f4a5b6c7d8e9f0a1b2c3d4e5f6a"],
+                    "official_permissions": [],
+                    "allowed_domains": ["airtel.in", "airtelpaymentsbank.com"]
+                }
+            ]
+        },
+        {
+            "bank": "Jana Small Finance Bank",
+            "packages": [
+                {
+                    "id": "com.janabank.mobile",
+                    "cert_sha256": ["b0c1d2e3f4a5b6c7d8e9f0a1b2c3d4e5f6a7b8c9d0e1f2a3b4c5d6e7f8a9b0c1"],
+                    "official_permissions": [],
+                    "allowed_domains": ["janabank.com"]
+                }
+            ]
+        },
+        {
+            "bank": "Fino Payments Bank",
+            "packages": [
+                {
+                    "id": "com.finobank.app",
+                    "cert_sha256": ["2b3c4d5e6f7a8b9c0d1e2f3a4b5c6d7e8f9a0b1c2d3e4f5a6b7c8d9e0f1a2b3c"],
+                    "official_permissions": [],
+                    "allowed_domains": ["finobank.com"]
+                }
+            ]
+        },
+        {
+            "bank": "Equitas Small Finance Bank",
+            "packages": [
+                {
+                    "id": "com.equitas.mobile",
+                    "cert_sha256": ["c7d8e9f0a1b2c3d4e5f6a7b8c9d0e1f2a3b4c5d6e7f8a9b0c1d2e3f4a5b6c7d8"],
+                    "official_permissions": [],
+                    "allowed_domains": ["equitasbank.com"]
+                }
+            ]
+        },
+        {
+            "bank": "AU Small Finance Bank",
+            "packages": [
+                {
+                    "id": "com.aubank.mobile",
+                    "cert_sha256": ["b0c1d2e3f4a5b6c7d8e9f0a1b2c3d4e5f6a7b8c9d0e1f2a3b4c5d6e7f8a9b0c1"],
+                    "official_permissions": [],
+                    "allowed_domains": ["aubank.in"]
+                }
+            ]
+        },
+        {
+            "bank": "Utkarsh Small Finance Bank",
+            "packages": [
+                {
+                    "id": "com.utkarsh.mobile",
+                    "cert_sha256": ["2b3c4d5e6f7a8b9c0d1e2f3a4b5c6d7e8f9a0b1c2d3e4f5a6b7c8d9e0f1a2b3c"],
+                    "official_permissions": [],
+                    "allowed_domains": ["utkarshbank.com"]
+                }
+            ]
+        },
+        {
+            "bank": "Esaf Small Finance Bank",
+            "packages": [
+                {
+                    "id": "com.esafbank.mobile",
+                    "cert_sha256": ["c7d8e9f0a1b2c3d4e5f6a7b8c9d0e1f2a3b4c5d6e7f8a9b0c1d2e3f4a5b6c7d8"],
+                    "official_permissions": [],
+                    "allowed_domains": ["esafbank.com"]
+                }
+            ]
+        },
+        {
+            "bank": "Ujjivan Small Finance Bank",
+            "packages": [
+                {
+                    "id": "com.ujjivan.mobile",
+                    "cert_sha256": ["b0c1d2e3f4a5b6c7d8e9f0a1b2c3d4e5f6a7b8c9d0e1f2a3b4c5d6e7f8a9b0c1"],
+                    "official_permissions": [],
+                    "allowed_domains": ["ujjivan.com"]
+                }
+            ]
+        }
+    ],
+    "upi_apps": [
+        {
+            "name": "Google Pay (Tez)",
+            "package": "com.google.android.apps.nbu.paisa.user",
+            "cert_sha256": ["e5f6a7b8c9d0e1f2a3b4c5d6e7f8a9b0c1d2e3f4a5b6c7d8e9f0a1b2c3d4e5f6"],
+            "official_permissions": [
+                "android.permission.INTERNET",
+                "android.permission.GET_ACCOUNTS",
+                "android.permission.USE_BIOMETRIC"
+            ],
+            "allowed_domains": ["google.com","pay.google.com"]
+        },
+        {
+            "name": "PhonePe",
+            "package": "com.phonepe.app",
+            "cert_sha256": ["c2d3e4f5a6b7c8d9e0f1a2b3c4d5e6f7a8b9c0d1e2f3a4b5c6d7e8f9a0b1c2d3"],
+            "official_permissions": [
+                "android.permission.INTERNET",
+                "android.permission.ACCESS_FINE_LOCATION",
+                "android.permission.CAMERA",
+                "android.permission.READ_CONTACTS"
+            ],
+            "allowed_domains": ["phonepe.com"]
+        },
+        {
+            "name": "Paytm",
+            "package": "net.one97.paytm",
+            "cert_sha256": ["b1c2d3e4f5a6b7c8d9e0f1a2b3c4d5e6f7a8b9c0d1e2f3a4b5c6d7e8f9a0b1c2"],
+            "official_permissions": [
+                "android.permission.ACCESS_FINE_LOCATION",
+                "android.permission.VIBRATE",
+                "android.permission.READ_CONTACTS",
+                "android.permission.READ_SMS",
+                "android.permission.RECEIVE_SMS"
+            ],
+            "allowed_domains": ["paytm.com"]
+        },
+        {
+            "name": "BHIM (NPCI)",
+            "package": "in.org.npci.upiapp",
+            "cert_sha256": ["f1a2b3c4d5e6f7a8b9c0d1e2f3a4b5c6d7e8f9a0b1c2d3e4f5a6b7c8d9e0f1a2"],
+            "official_permissions": [],
+            "allowed_domains": ["bhimupi.org.in","npci.org.in"]
+        },
+        {
+            "name": "Amazon Pay (India)",
+            "package": "in.amazon.mShop.android.shopping",
+            "cert_sha256": ["a1b2c3d4e5f6a7b8c9d0e1f2a3b4c5d6e7f8a9b0c1d2e3f4a5b6c7d8e9f0a1b2"],
+            "official_permissions": [],
+            "allowed_domains": ["amazon.in","pay.amazon.in"]
+        },
+        {
+            "name": "Mobikwik",
+            "package": "com.mobikwik_new",
+            "cert_sha256": ["c3d4e5f6a7b8c9d0e1f2a3b4c5d6e7f8a9b0c1d2e3f4a5b6c7d8e9f0a1b2c3d4"],
+            "official_permissions": [],
+            "allowed_domains": ["mobikwik.com"]
+        },
+        {
+            "name": "Freecharge",
+            "package": "com.freecharge.android",
+            "cert_sha256": ["e5f6a7b8c9d0e1f2a3b4c5d6e7f8a9b0c1d2e3f4a5b6c7d8e9f0a1b2c3d4e5f6"],
+            "official_permissions": [],
+            "allowed_domains": ["freecharge.in"]
+        },
+        {
+            "name": "WhatsApp (Payments)",
+            "package": "com.whatsapp",
+            "cert_sha256": ["a3b4c5d6e7f8a9b0c1d2e3f4a5b6c7d8e9f0a1b2c3d4e5f6a7b8c9d0e1f2a3b4"],
+            "official_permissions": [],
+            "allowed_domains": ["whatsapp.com"]
+        }
+    ]
+}
